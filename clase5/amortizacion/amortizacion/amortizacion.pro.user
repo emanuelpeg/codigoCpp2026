@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 7.0.1, 2025-04-26T14:32:51. -->
+<!-- Written by QtCreator 7.0.1, 2026-04-13T22:49:12. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -99,7 +99,7 @@
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/emanuel/Facultad/programacion_orientada_objeto/2025/codigoCpp2025/clase5/amortizacion/amortizacion</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/emanuel/Facultad/programacion_orientada_objeto/2026/git/codigoCpp2026/clase5/amortizacion/amortizacion</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -136,7 +136,7 @@
     <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/emanuel/Facultad/programacion_orientada_objeto/2025/codigoCpp2025/clase5/amortizacion/amortizacion</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/emanuel/Facultad/programacion_orientada_objeto/2026/git/codigoCpp2026/clase5/amortizacion/amortizacion</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -193,16 +193,15 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">amortizacion2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/emanuel/Facultad/programacion_orientada_objeto/2025/codigoCpp2025/clase5/amortizacion/amortizacion/amortizacion.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/emanuel/Facultad/programacion_orientada_objeto/2025/codigoCpp2025/clase5/amortizacion/amortizacion/amortizacion.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/emanuel/Facultad/programacion_orientada_objeto/2026/git/codigoCpp2026/clase5/amortizacion/amortizacion/amortizacion.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/emanuel/Facultad/programacion_orientada_objeto/2026/git/codigoCpp2026/clase5/amortizacion/amortizacion/amortizacion.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseTerminal">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/emanuel/Facultad/programacion_orientada_objeto/2025/codigoCpp2025/clase5/amortizacion/amortizacion</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/emanuel/Facultad/programacion_orientada_objeto/2026/git/codigoCpp2026/clase5/amortizacion/amortizacion</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

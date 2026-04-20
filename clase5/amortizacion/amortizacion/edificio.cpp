@@ -6,6 +6,6 @@ Edificio::Edificio(int anioCreacion, int pisos) {
 }
 
 double Edificio::amortizar(){
-    int dif = 2025 - this->anioCreacion;
+    int dif = 2026 - this->anioCreacion;
     return this->valor * (dif * 0.004 * this->pisos);
 }

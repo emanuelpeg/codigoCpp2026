@@ -14,10 +14,11 @@ using namespace std;
 
 int main()
 {
-    Coleccion *objeto = new Lista ();
+    Coleccion *objeto = new Vector ();
     objeto->alta(26);
     objeto->alta(18);
     objeto->alta(28);
+    objeto->alta(20);
     objeto->alta(20);
 
     for (int i=0; i<objeto->getSize(); i++) {

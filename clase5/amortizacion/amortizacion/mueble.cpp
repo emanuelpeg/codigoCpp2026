@@ -6,7 +6,7 @@ Mueble::Mueble(int anioCreacion)
 }
 
 double Mueble::amortizar(){
-    int dif = 2025 - this->anioCreacion;
+    int dif = 2026 - this->anioCreacion;
     return this->valor * (dif * 0.05);
 }
 
