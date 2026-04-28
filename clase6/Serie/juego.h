@@ -9,7 +9,8 @@ private:
     Serie * serie = nullptr;
     void generar();
 public:
-    Juego();    
+    Juego();
+    ~Juego();
     bool estaBien(int resp);
     int getNro1();
     int getNro2();

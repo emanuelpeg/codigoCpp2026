@@ -13,9 +13,14 @@ Juego::Juego()
     this->generar();
 }
 
+Juego::~Juego()
+{
+    if (this->serie != nullptr) delete this->serie;
+}
+
 void Juego::generar()
 {
-    if (this->serie != 0) delete this->serie;
+    if (this->serie != nullptr) delete this->serie;
     srand(time(0));
     int semilla = (rand() % 5);
 
