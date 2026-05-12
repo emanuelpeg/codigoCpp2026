@@ -1094,6 +1094,9 @@ moc_cronometro.cpp: ../CronometroEnClase/cronometro.h \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtGui/QTransform \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qnativeinterface.h \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtWidgets/qtabwidget.h \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/QTimer \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qtimer.h \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qbasictimer.h \
 		moc_predefs.h \
 		/home/emanuel/Qt/6.4.0/gcc_64/libexec/moc
 	/home/emanuel/Qt/6.4.0/gcc_64/libexec/moc $(DEFINES) --include /home/emanuel/Facultad/programacion_orientada_objeto/2026/git/codigoCpp2026/clase7/build-CronometroEnClase-Desktop-Debug/moc_predefs.h -I/home/emanuel/Qt/6.4.0/gcc_64/mkspecs/linux-g++ -I/home/emanuel/Facultad/programacion_orientada_objeto/2026/git/codigoCpp2026/clase7/CronometroEnClase -I/home/emanuel/Qt/6.4.0/gcc_64/include -I/home/emanuel/Qt/6.4.0/gcc_64/include/QtWidgets -I/home/emanuel/Qt/6.4.0/gcc_64/include/QtGui -I/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../CronometroEnClase/cronometro.h -o moc_cronometro.cpp
@@ -1257,6 +1260,9 @@ main.o: ../CronometroEnClase/main.cpp ../CronometroEnClase/cronometro.h \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtGui/QTransform \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qnativeinterface.h \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtWidgets/qtabwidget.h \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/QTimer \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qtimer.h \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qbasictimer.h \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtWidgets/QApplication \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtWidgets/qapplication.h \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qcoreapplication.h \
@@ -1419,7 +1425,13 @@ cronometro.o: ../CronometroEnClase/cronometro.cpp ../CronometroEnClase/cronometr
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtGui/QTransform \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qnativeinterface.h \
 		/home/emanuel/Qt/6.4.0/gcc_64/include/QtWidgets/qtabwidget.h \
-		ui_cronometro.h
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/QTimer \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qtimer.h \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtCore/qbasictimer.h \
+		ui_cronometro.h \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtWidgets/QMessageBox \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtWidgets/qmessagebox.h \
+		/home/emanuel/Qt/6.4.0/gcc_64/include/QtWidgets/qdialog.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cronometro.o ../CronometroEnClase/cronometro.cpp
 
 moc_cronometro.o: moc_cronometro.cpp 
