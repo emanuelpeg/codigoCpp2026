@@ -12,6 +12,7 @@ int main()
     vector<int> numeros(200);
     for(int i = 0; i<200; ++i) {
         numeros[i] = rand() % 900;
+        //numeros.push_back(rand() % 900);
     }
 
     for(auto it = numeros.begin();
@@ -21,14 +22,16 @@ int main()
 
     cout << " --------------- " << endl;
 
-    std::sort(numeros.begin()+10,numeros.end()-50);
+    sort(numeros.begin()+10,numeros.end()-50);
 
-    for(std::size_t i = 0; i<numeros.size(); i++) {
+    for(size_t i = 0; i<numeros.size(); i++) {
         cout << numeros[i]  << ", ";
     }
     cout << " --------------- " << endl;
-    //std::sort(numeros.begin(),numeros.end(), des);
-   //std::sort(numeros.rbegin(),numeros.rend());
+
+  //  std::sort(numeros.begin(),numeros.end(), des);
+ //  std::sort(numeros.rbegin(),numeros.rend());
+    int a = 5;
     std::sort(numeros.begin(),numeros.end(),
               [](int i,int j) -> bool {
         return i>j;
