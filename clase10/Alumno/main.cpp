@@ -10,9 +10,11 @@ int main()
     Alumno unAlumno(87987,"Juan");
     unAlumno.addNota(50);
     unAlumno.addNota(40);
+
     Alumno otroAlumno(97987,"Pedro");
     otroAlumno.addNota(80);
     otroAlumno.addNota(90);
+
     Alumno otroAlumno2(87947,"Ana");
     otroAlumno2.addNota(80);
     otroAlumno2.addNota(85);
@@ -59,6 +61,8 @@ int main()
     auto fx = []() {
         std::cout << " Hola ";
     };
+
     fx();
+
     return 0;
 }

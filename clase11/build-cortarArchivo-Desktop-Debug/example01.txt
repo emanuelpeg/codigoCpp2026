@@ -1,0 +1,16 @@
+    myfile.close();
+    myfile.open("example.txt");
+
+    if (cant < cantCut) {
+        cout << "Error!!";
+        return 0;
+    }
+
+    cant = cant / cantCut;
+
+    ofstream myfileOf("example0.txt");
+    int aux = 0;
+    int nro = 1;
+    while (getline(myfile,line)) {
+       myfileOf << line;
+       myfileOf << endl;

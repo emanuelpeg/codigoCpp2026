@@ -1,0 +1,16 @@
+#include <iostream>
+#include <stdio.h>
+#include <string.h>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    ifstream myfile("example.txt");
+    int cantCut = 3;
+    int cant = 0;
+    string line;
+    while (getline(myfile,line)) {
+       cant++;
+    }

@@ -1,0 +1,13 @@
+       aux++;
+       if (aux == cant) {
+           aux = 0;
+           myfileOf.close();
+           myfileOf.open("example0"+to_string(nro)+".txt");
+           nro++;
+       }
+       if (myfileOf.is_open()) myfileOf.close();
+       myfile.close();
+    }
+
+    return 0;
+}

@@ -1,0 +1,32 @@
+(defun transformar (l fx)
+   (cond 
+      ((Null l) Nil)
+      (T (cons (Funcall fx (first l)) 
+           (transformar (rest l) fx)))
+    )
+)  
+; ((1 0) (0 1)) // a -> 0 , b -> 1 
+(defun pase (matris estado letra)
+  (obtener (obtener matris estado) letra)     
+)
+
+(defun obtener(lista nro) 
+    (cond 
+       ((= nro 0) (first lista))
+       (T (obtener (rest lista) (- nro 1)))
+    )
+)
+
+; automata matrix palabra inicial finales 
+(defun automata (matrix palabra i) 
+    (cond 
+       ((null palabra) i)
+       (T (automata matrix (rest palabra) 
+             (pase matrix i (first palabra))))
+    )
+)
+; debe tener finales
+(defun verificar(matrix palabra i final)
+   (= (automata matrix palabra i) final)
+) 
+
